@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!--wow.js-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <!--bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <!--fontawesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--google fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container-fluid">
+  <nav id="navbar-example2" class="navbar navbar-expand-lg navbar-dark bg-dark ms-auto sticky-top p-4 w-100">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto nav-pills">
+                  <li class="nav-item">
+                      <a class="nav-link text-light" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-light" href="#service">Service</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          About
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#teams">Team</a></li>
+                          <li><a class="dropdown-item" href="#pricing">Pricing</a></li>
+                          <li><a class="dropdown-item" href="#faq">FAQ</a></li>
+                      </ul>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-light" href="#testimonials">Testimonials</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-light" href="#blog">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-light" href="#contact">Contact</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+    <!--content-->
+    <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+
+      <div id="home">
+        <!--carousel-->
+        <div id="carouselExampleDark" class="carousel carousel-dark slide data-bs-interval">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 0"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+           
+          </div>
+          <div class="carousel-inner col-sm-12 col-md-12 col-lg-12">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="greenbgball.jpg" class="d-block w-100" alt="..." style="max-height: 500px;">
+              <div class="carousel-caption">
+                <h1 class="text-light fw-bolder">HII I'M ROHAN I PLAY <BR>FOOTBALL A LOT</h2>
+                  <p class=" fs-4 text-light">Lorem, ipsum dolor sit amet riatur cumquelibero qu voluptit ducimus deserunt repellat? Illum nulla culpa iusto at quaerat minima sint sunt reprehen</p>
+                  <button type="button" class="switch btn btn-outline-light p-3 fw-bolder w-25">Get in touch</button>
+                </div>
+            </div>
+            <div class="carousel-item col-sm-12 col-md-12 col-lg-12">
+              <img  src="fball.jpg" class="d-block w-100" alt="..." style="max-height: 500px;">
+              <div class="carousel-caption">
+                <h1 class="text-light fw-bolder">NEW GENERATION OF <BR>FOOTBALL</h1>
+                <p class="fs-4 text-light">Lorem, ipsum dolor sit amet riatur cumquelibero qu voluptit ducimus deserunt repellat? Illum nulla culpa iusto at quaerat minima sint sunt reprehen</p>
+                <button type="button" class="switch btn btn-outline-light mt-5 w-25 p-3"> Get in touch </button>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExamplelight" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!--about-->
+    <div id="service" class="section bg-dark text-lightsection wow animate__animated animate__slideInUp">
+      <div class="sec">
+        <h3 class="fs-1 pb-4 pt-4">SERVICES</h3>
+        <P class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam officia mollitia, dolore commodi veniam rem fuga. Voluptates asperiores facilis soluta, possimus corrupti, facere voluptatem! Animi!</P>
+      </div>
+    </div>
+
+    <!--cardssss boxes-->
+    <div class="row cards">
+      <div class="item wow section wow animate__animated animate__slideInUp">
+        <div class="circle">
+          <i class="fa-sharp-duotone fa-solid fa-futbol"></i>
+        </div>
+        <h5 class="wow">FOOTBALL FOR BEGINNERS</h5>
+        <P class="wow">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dicta dolorem nesciunt, dignissimos eveniet laboriosam deleniticulpa est quae omnis error? Qui illum enim deserunt.</P>
+      </div>
+      <div class="item wow section wow animate__animated animate__slideInUp">
+        <div class="circle">
+          <i class="fa-solid fa-person-running"></i>
+        </div>
+          <h5>PERSONAL TRAINING</h5>
+          <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dicta dolorem nesciunt, dignissimos eveniet laboriosam deleniticulpa est quae omnis error? Qui illum enim deserunt.</P>
+      </div>
+      <div class="item wow section wow animate__animated animate__slideInUp">
+        <div class="circle">
+          <i class="fa-solid fa-person-running"></i>
+        </div>
+        <h5>BEST PLAYER</h5>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dicta dolorem nesciunt, dignissimos eveniet laboriosam deleniti culpa est quae omnis error? Qui illum enim deserunt.</P>
+      </div>
+      <div class="item wow section wow animate__animated animate__slideInUp">
+        <div class="circle">
+          <i class="fa-solid fa-trophy"></i>
+        </div>
+        <h5>ADVANCE FOOTBALLER</h5>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dicta dolorem nesciunt, dignissimos eveniet laboriosam delenit culpa est quae omnis error? Qui illum enim deserunt.</P>
+      </div>
+      <div class="item wow section wow animate__animated animate__slideInUp">
+        <div class="circle">
+          <i class="fa-solid fa-bell"></i>
+        </div>
+        <h5>NOVICE TO PROPLAYERS</h5>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dicta dolorem nesciunt, dignissimos eveniet laboriosam deleniti culpa est quae omnis error? Qui illum enim deserunt.</P>
+      </div>
+      <div class="item wow section wow animate__animated animate__slideInUp">
+        <div class="circle">
+          <i class="fa-brands fa-dart-lang"></i>
+        </div>
+        <h5>BEST DEFENDER</h5>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dicta dolorem nesciunt, dignissimos eveniet laboriosam deleniti culpa est quae omnis error? Qui illum enim deserunt.</P>
+      </div>
+    </div>
+
+
+    <!--images-->
+    <div class="about">
+      <div class="vick wow section wow animate__animated animate__fadeInLeft">
+        <img src="https://wallpapercave.com/wp/wp11378494.jpg" alt="">
+      </div>
+      <div class="vicks wow animate__animated animate__fadeInRight">
+        <h2>MY BEST PERFOMANCE</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis dolor cum eos illum blanditiis tempore officia neque harum exercitationem minima repudiandae velit quas iusto, libero, optio deserunt voluptate? Pariatur, corporis
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam voluptas ducimus nemo distinctio unde facilis sint? Quia nostrum, tempore alias, vitae minima totam quaerat ea debitis sit libero iure. Debitis!</p>
+        <table>
+          <tr>
+            <td><i class="fa-solid fa-check"></i></td>
+            <td><P>Lorem ipsum folor</P></td>
+          </tr>
+          <tr>
+            <td><i class="fa-solid fa-check"></i></td>
+            <td> Lorem ipsum folor</td>
+          </tr>
+          <tr>
+            <td><i class="fa-solid fa-check"></i></td>
+            <td> Lorem ipsum folor</td>
+          </tr>
+          <tr>
+            <td><i class="fa-solid fa-check"></i></td>
+            <td> Lorem ipsum folor</td>
+          </tr>
+          
+        </table>
+      </div>
+      <div class="vicks wow section wow animate__animated animate__fadeInLeft">
+        <h2>MY BEST MENTOR</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis dolor cum eos illum blanditiis tempore officia neque harum exercitationem minima repudiandae velit quas iusto, libero, optio deserunt voluptate? Pariatur, corporis
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam voluptas ducimus nemo distinctio unde facilis sint? Quia nostrum, tempore alias, vitae minima totam quaerat ea debitis sit libero iure. Debitis!</p>
+        <table>
+          <tr>
+            <td><i class="fa-solid fa-check"></i></td>
+            <td> Lorem ipsum folor</td>
+          </tr>
+          <tr>
+            <td><i class="fa-solid fa-check"></i></td>
+            <td> Lorem ipsum folor</td>
+          </tr>
+          <tr>
+            <td><i class="fa-solid fa-check"></i></td>
+            <td> Lorem ipsum folor</td>
+          </tr>
+          <tr>
+            <td><i class="fa-solid fa-check"></i></td>
+            <td> Lorem ipsum folor</td>
+          </tr>
+        </table>
+      </div>
+      <div class="vick wow animate__animated animate__fadeInRight">
+        <img src="https://cdn.britannica.com/34/212134-050-A7289400/Lionel-Messi-2018.jpg" alt="">
+      </div>
+    </div>
+
+    <!--videos     about-->
+    <div id="about wow">
+       <div class="video">
+        <video src="videos.mp4"></video>
+       </div>
+    <!--counts-->
+    <div class="count">
+      <div class="num"><h1>30+</h1><br><div class="length"> </div><br><p>Year of experience</p></div>
+      <div class="num"><h1>4+</h1><br><div class="length"> </div><br><p>Expert Trainer</p></div>
+      <div class="num"><h1>4+</h1><br><div class="length"> </div><br><p>Number Of Trainer</p></div>
+      <div class="num"><h1>1,500+</h1><br><div class="length"> </div><br><p>Number of Members</p></div>
+    </div>
+    </div>
+   
+    <!--our team-->
+    <div id="teams" class="team">
+      <div class="ourteam wow section wow animate__animated animate__slideInUp">
+        <h1>OUR TEAM</h1>
+        <p>Lorem ipsum dolor sit amet Fugit mollitia , deserunt id possimus, enim praesentium consequatur voluptate, autem? Omnis, vitae voluptate! Quos magni amet explicabo .</p>
+      </div>
+      <!--Trainer 3 cards-->
+      <div class="tcards">
+        <div class="car wow section wow animate__animated animate__slideInUp">
+          <div class="dp one">
+          </div>
+          <h3>MESSI</h3>
+          <p>FOOTBALL TRAINER</p>
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+
+        <div class="car wow section wow animate__animated animate__slideInUp">
+          <div class="dp two"></div>
+           <h3>NEYMAR</h3>
+           <p>FOOTBALL TRAINER</p>
+           <i class="fa-brands fa-facebook-f"></i>
+           <i class="fa-brands fa-twitter"></i>
+           <i class="fa-brands fa-instagram"></i> 
+        </div>
+        <div class="car wow section wow animate__animated animate__slideInUp">
+          <div class="dp three"></div>
+          <h3>RONALDO</h3>
+          <p>FOOTBALL TRAINER</p>
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </div>
+    </div>
+    <!--pricing-->
+    <div id="pricing" class="pricing wow section wow animate__animated animate__slideInUp">
+      <div class="price">
+        <h1>SESSION PRICING</h1>
+        <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quae temporibus tenetur<br> vitae iusto suscipit alias, laudantium, porro unde tempora.</P>
+      </div>
+      <div class="pricecard ">
+        <div class="box wow section wow animate__animated animate__slideInUp">
+          <h2>BASIC</h2>
+          <h1>$47</h1>
+          <table>
+            <tr>
+              <td><i class="fa-solid fa-check"></i></td>
+              <td> Lorem ipsum dolor sit amet.</td>
+            </tr>
+            <tr>
+              <td><i class="fa-solid fa-check"></i></td>
+              <td> Lorem ipsum dolor sit amet</td>
+            </tr>
+            <tr>
+              <td><i class="fa-solid fa-check"></i></td>
+              <td> Lorem ipsum dolor sit amet.</td>
+            </tr>
+            <tr>
+              <td><i class="fa-solid fa-check"></i></td>
+              <td> Lorem ipsum dolor sit amet.</td>
+            </tr>
+            <tr></tr>
+              <td><i class="fa-solid fa-check"></i></td>
+              <td> Lorem ipsum dolor sit amet.</td>
+            </tr>
+          </table>
+          <button class="angle" value="submit">Buy Now</button>
+        </div>
+        <div class="box wow section wow animate__animated animate__slideInUp">
+          <h2>PREMIUM</h2>
+          <h1>$200</h1>
+          <table>
+            <tr>
+              <td><i class="fa-solid fa-check"></i></td>
+              <td> Lorem ipsum dolor sit amet.</td>
+            </tr>
+            <tr>
+              <td><i class="fa-solid fa-check"></i></td>
+              <td> Lorem ipsum dolor sit amet.</td>
+            </tr>
+            <tr>
+              <td><i class="fa-solid fa-check"></i></td>
+              <td> Lorem ipsum dolor sit amet.</td>
+            </tr>
+            <tr>
+              <td><i class="fa-solid fa-check"></i></td>
+              <td> Lorem ipsum dolor sit amet.</td>
+            </tr>
+            <tr></tr>
+              <td><i class="fa-solid fa-check"></i></td>
+              <td> Lorem ipsum dolor sit amet.</td>
+            </tr>
+          </table>
+          <button class="angel" value="submit">Buy Now</button>
+        </div>
+        <div class="box wow section wow animate__animated animate__slideInUp">
+          <h2>PROFESSIONAL</h2>
+          <h1>$750</h1>
+          <table>
+            <tr>
+              <td><i class="fa-solid fa-check"></i></td>
+              <td> Lorem ipsum dolor sit amet.</td>
+            </tr>
+            <tr>
+              <td><i class="fa-solid fa-check"></i></td>
+              <td> Lorem ipsum dolor sit amet.</td>
+            </tr>
+            <tr>
+              <td><i class="fa-solid fa-check"></i></td>
+              <td> Lorem ipsum dolor sit amet.</td>
+            </tr>
+            <tr>
+              <td><i class="fa-solid fa-check"></i></td>
+              <td> Lorem ipsum dolor sit amet.</td>
+            </tr>
+            <tr></tr>
+              <td><i class="fa-solid fa-check"></i></td>
+              <td> Lorem ipsum dolor sit amet.</td>
+            </tr>
+          </table>
+          <button value="submit">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <!--faq-->
+    <div id="faq" class="faq">
+      <h1 class="pb-4 pt-4 ourteam wow section wow animate__animated animate__slideInUp">Frequently Ask Questions</h1>
+      <div class="main">
+        <div class="qt">
+          <div class="ask wow section wow animate__animated animate__slideInUp">
+            <h4>Can I accept both Paypal and Stripe?</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam assumenda eum blanditiis perferendis.</p>
+          </div>
+          <div class="ask wow section wow animate__animated animate__slideInUp">
+            <h4>What available is refund period?</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam assumenda eum blanditiis perferendis.</p>
+          </div>
+          <div class="ask wow section wow animate__animated animate__slideInUp">
+            <h4>Can I accept both Paypal and Stripe?</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam assumenda eum blanditiis perferendis.</p>
+          </div>
+          <div class="ask wow section wow animate__animated animate__slideInUp">
+            <h4>What available is refund period?</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam assumenda eum blanditiis perferendis.</p>
+          </div>
+        </div>
+        <div class="qt">
+          <div class="ask wow section wow animate__animated animate__slideInUp">
+            <h4>Where are you from?</h4>
+            <p>Voluptatum nobis obcaecati perferendis dolor totam unde dolores quod maxime corporis officia et. Distinctio assumenda minima maiores.</p>
+          </div>
+          <div class="ask wow section wow animate__animated animate__slideInUp">
+            <h4>What is your opening time?</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam assumenda eum blanditiis perferendis.</p>
+          </div>
+          <div class="ask wow section wow animate__animated animate__slideInUp">
+            <h4>Can I accept both Paypal and Stripe?</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam assumenda eum blanditiis perferendis.</p>
+          </div>
+          <div class="ask wow section wow animate__animated animate__slideInUp">
+            <h4>What available is refund period?</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam assumenda eum blanditiis perferendis.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--testimonals at third last-->
+    <div id="testimonals">
+      <h1>TESTIMONIAL</h1>
+      <!--carousel for testimonial sliding-->
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="sliding">
+              <div class="lorry">
+                <div class="pix ten"></div>
+                <p>NOAH</p>
+                <div class="carlos">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quibusdam veniam praesentium cum corrupti officia quis ad, repudiandae odio alias fuga explicabo aut nihil soluta esse nostrum nobis numquam ratione magnam atque hic, expedita sit aperiam totam! Asperiores, suscipit ipsam iste saepe sequi, magni, omnis esse tempora eum mollitia facere.</p>
+                </div>
+              </div>
+              <div class="lorry">
+                <div class="carlos">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quibusdam veniam praesentium cum corrupti officia quis ad, repudiandae odio alias fuga explicabo aut nihil soluta esse nostrum nobis numquam ratione magnam atque hic, expedita sit aperiam totam! Asperiores, suscipit ipsam iste saepe sequi, magni, omnis esse tempora eum mollitia facere.</p>
+                </div>
+                <div class="pix lvn"></div>
+                <p>DHANUSH</p>
+              </div>
+              <div class="lorry">
+                <div class="pix lve"></div>
+                <p>RANVEER SINGH</p>
+                <div class="carlos">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quibusdam veniam praesentium cum corrupti officia quis ad, repudiandae odio alias fuga explicabo aut nihil soluta esse nostrum nobis numquam ratione magnam atque hic, expedita sit aperiam totam! Asperiores, suscipit ipsam iste saepe sequi, magni, omnis esse tempora eum mollitia facere.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="sliding">
+              <div class="lorry">
+                <div class="carlos">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quibusdam veniam praesentium cum corrupti officia quis ad, repudiandae odio alias fuga explicabo aut nihil soluta esse nostrum nobis numquam ratione magnam atque hic, expedita sit aperiam totam! Asperiores, suscipit ipsam iste saepe sequi, magni, omnis esse tempora eum mollitia facere.</p>
+                </div>
+                <div class="pix lvn"></div>
+                <p>DHANUSH</p>
+              </div>
+              <div class="lorry">
+                <div class="pix lve"></div>
+                <p>RANVEER SINGH</p>
+                <div class="carlos">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quibusdam veniam praesentium cum corrupti officia quis ad, repudiandae odio alias fuga explicabo aut nihil soluta esse nostrum nobis numquam ratione magnam atque hic, expedita sit aperiam totam! Asperiores, suscipit ipsam iste saepe sequi, magni, omnis esse tempora eum mollitia facere.</p>
+                </div>
+              </div>
+              <div class="lorry">
+                <div class="carlos">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quibusdam veniam praesentium cum corrupti officia quis ad, repudiandae odio alias fuga explicabo aut nihil soluta esse nostrum nobis numquam ratione magnam atque hic, expedita sit aperiam totam! Asperiores, suscipit ipsam iste saepe sequi, magni, omnis esse tempora eum mollitia facere.</p>
+                </div>
+                <div class="pix lvn"></div>
+                <p>DHANUSH</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="sliding">
+              <div class="lorry">
+                <div class="pix ten"></div>
+                <p>sharapov</p>
+                <div class="carlos">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quibusdam veniam praesentium cum corrupti officia quis ad, repudiandae odio alias fuga explicabo aut nihil soluta esse nostrum nobis numquam ratione magnam atque hic, expedita sit aperiam totam! Asperiores, suscipit ipsam iste saepe sequi, magni, omnis esse tempora eum mollitia facere.</p>
+                </div>
+              </div>
+              <div class="lorry">
+                <div class="carlos">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quibusdam veniam praesentium cum corrupti officia quis ad, repudiandae odio alias fuga explicabo aut nihil soluta esse nostrum nobis numquam ratione magnam atque hic, expedita sit aperiam totam! Asperiores, suscipit ipsam iste saepe sequi, magni, omnis esse tempora eum mollitia facere.</p>
+                </div>
+                <div class="pix lvn"></div>
+                <p>DHANUSH</p>
+              </div>
+              <div class="lorry">
+                <div class="pix lve"></div>
+                <p>RANVEER SINGH</p>
+                <div class="carlos">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quibusdam veniam praesentium cum corrupti officia quis ad, repudiandae odio alias fuga explicabo aut nihil soluta esse nostrum nobis numquam ratione magnam atque hic, expedita sit aperiam totam! Asperiores, suscipit ipsam iste saepe sequi, magni, omnis esse tempora eum mollitia facere.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--blog-->
+    <div id="blog">
+      <P class="wow section wow animate__animated animate__slideInUp">LATEST BLOG SPOTS</P>
+      <h1 class="wow section wow animate__animated animate__slideInUp">OUR BLOG</h1>
+      <div class="details">
+        <div class="bills wow section wow animate__animated animate__slideInUp">
+            <img src="https://wallpapers.com/images/high/philippe-coutinho-for-fc-bayern-munich-gfq1rzp7bp7yy8tz.webp">
+            <h3><a href="#">HOW TO FIND BEST IN FOOTBALL</a></h3>
+            <P>JANUARY 18, 2019 BY <a href="#">PHILIPPE COUTINHO</a></P>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat et suscipit iste libero neque. Vitae quidem ducimus voluptatibus nemo cum odio ab enim nisi, itaque, libero fuga veritatis culpa quis!</p>
+            <p><a href="">Read More</a></p>
+        </div>
+        <div class="bills wow section wow animate__animated animate__slideInUp">
+          <img src="https://live-production.wcms.abc-cdn.net.au/0051e3fd8033737b8a5ac152aeca83a4?impolicy=wcms_crop_resize&cropH=1468&cropW=2610&xPos=1148&yPos=95&width=862&height=485" alt="">
+          <h3><a href="#">HOW TO FIND BEST IN FOOTBALL</a></h3>
+            <P>MARCH 18, 2024 BY <a href="#">ELLIE CARPENTER</a></P>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat et suscipit iste libero neque. Vitae quidem ducimus voluptatibus nemo cum odio ab enim nisi, itaque, libero fuga veritatis culpa quis!</p>
+            <p><a href="">Read More</a></p>
+        </div>
+      </div>
+    </div>
+    <!--contact section-->
+    <div id="contact" class="cont wow section wow animate__animated animate__slideInUp">
+      <p>GET IN TOUCH</p>
+      <h1>CONTACT ME</h1>
+      <div class="wrap">
+        <div class="frm wow section wow animate__animated animate__slideInUp">
+          <!--form -->
+          <table>
+            <form action="">
+              <tr><td>
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Second Name">
+              </td></tr>
+              <tr><td>
+                <input type="email" placeholder="Email Address">
+              </td></tr>
+              <tr><td>
+                <textarea name="" id="" placeholder="Enter Text Here"></textarea>
+              </td></tr>
+              <tr>
+                <td><input type="button" value="Send Message"></td>
+              </tr>
+              
+            </form>
+          </table>
+          
+        </div>
+        <div class="det wow section wow animate__animated animate__slideInUp">
+          <h3>NEED TO KNOW MORE ON DETAILS.GET IN TOUCH</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, distinctio! Harum quibusdam nisi, illum nulla aspernatur aut quidem aperiam, quae non tempora recusandae voluptatibus fugit impedit.</p>
+          <button value="submit">Get Started</button>
+        </div>
+      </div>
+      <footer>
+        <div class="abts wow section wow animate__animated animate__slideInUp">
+          <h5>ABOUT US</h5>
+          <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</P>
+        </div>
+        <div class="feat wow section wow animate__animated animate__slideInUp">
+          <h5>FEATURES</h5>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Press Releases</a></li>
+            <li> <a href="#">Testimonials</a></li>
+            <li> <a href="#">Terms of Service</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="news wow section wow animate__animated animate__slideInUp">
+          <h5>SUBSCRIBE TO NEWS LETTER</h5>
+          <input type="email" placeholder="Enter Email"><input type="button" value="Subscribe">
+          <h5>FOLLOW US</h5>
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <div class="line wow section wow animate__animated animate__slideInUp"></div>
+        <p id="by">Copyright ©2024 All rights reserved | This template is made with  by VISHNU RAJ C</p>
+      </footer>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+</body>
+</html>

@@ -1,0 +1,605 @@
+*{
+    box-sizing: border-box;
+}
+.container-fluid{
+    margin:0;
+    padding:0;
+    color:white;
+}
+
+body{
+    background-color: #212529;
+    color:white;
+    font-family: "Roboto Condensed", sans-serif;
+    
+}
+.carousel-caption{
+    padding-bottom:px;
+}
+.sec{
+    height: auto;
+    width:700px;
+    text-align: center;
+    padding:70px 30px;
+    margin:auto;
+}
+.sec>h3{
+    color:#ff8b00;
+}
+
+.cards{
+    display:grid;
+   grid-template-columns:repeat(3,1fr);
+   gap:30px;
+   padding:30px;   
+}
+.item{
+    padding:20px;
+}
+.item h5{
+    padding:25px 0 20px 0;
+}
+.item p{
+    color:#f8f9fa;
+}
+.item i{
+    color:#ff8b00;
+    font-size: 35px;
+    padding:10px 0 20px 0;
+}
+
+.circle{
+    height:60px;
+    width:60px;
+    padding:20px 0 40px 15px;
+    border-radius:30px;
+    background-color: rgb(54, 57, 59);
+}
+i{
+    color:#ff8b00;
+}
+.about{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content:space-around; 
+}
+.vick img{
+    height:600px;
+    width:550px;
+
+}
+.vicks{
+    padding-top: 80px;
+    width:35%;
+}
+.vicks td{
+    padding:10px;
+    font-size: 20px;
+}
+.vicks>p{
+    font-size: 15px;
+}
+.vicks>h2{
+    font-size:35px;
+    color:#ff8b00;
+    text-align: left;
+}
+.video>video{
+    height:100vh;
+    width:90%;
+    object-fit: cover;
+    margin:50px 50px 50px 60px;
+}
+.count{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    column-gap: 90px;
+   
+}
+.num h1{
+    color:#ff8b00;
+    font-size:70px;
+    
+}
+.length{
+    margin-left: 50px;
+    width:100px;
+    height:3px;
+    background-color:rgb(156, 155, 155);
+}
+.length:hover{
+    background-color: rgb(237, 66, 13);
+}
+.num {
+    width:200px;
+    text-align: center;
+    color:white;
+    font-size: 20px;
+}
+.ourteam{
+    height:170px;
+    width:500px;
+    padding-top:100px;
+    margin-left:30%;
+    text-align:center;
+}
+h1{
+    color:#ff8b00;
+}
+.tcards{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:10px;
+    padding:90px;
+}
+.car{
+    margin:auto;
+    width:340px;
+    height: 300px;
+    text-align:center;
+    margin-top:50px;
+    border-radius:15px;
+    background-color: #333333;
+}
+.dp{
+    width:140px;
+    height:140px;
+    margin-left:30%;
+    margin-top:20px;
+    border-radius: 70px;
+}
+.one{
+    background-image:url("https://i.pinimg.com/474x/cc/57/5d/cc575dd645a465ff6c53b6617874890f.jpg");
+    background-size: cover;
+}
+.two{
+    background-image: url("https://i.pinimg.com/474x/55/1e/24/551e24304668c7295f6471f1f025d55d.jpg");
+    background-size: cover;
+}
+.three{
+    background-image: url("https://i.pinimg.com/474x/27/d5/da/27d5daf0e5ccd23b62d84a22dbd7493c.jpg");
+    background-size: cover;
+}
+.car i{
+    color:white;
+    background-color: #ff8b00;
+    border:2px solid #ff8b00;
+    width:32px;
+    height:32px;
+    padding:7px;
+    margin-top:4px;
+    border-radius:4px;
+    transition:0.3s;
+}
+.car i:hover{
+    color:black;
+    background-color:rgb(255, 166, 0,0);
+}
+.price{
+    text-align: center;
+    padding:40px;
+
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding:80px;
+    gap:80px;
+   
+}
+
+.pricecard{
+    height:100vh;
+    width:100%;
+    padding: 25px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+.box{
+    width:30%;
+    padding-top: 40px;
+    margin: auto;
+    text-align: center;
+    background-color: #333333;
+}
+.box i{
+    color:rgb(72, 247, 24);
+    margin-right:40px;
+}
+.box table{
+    margin: auto;
+    padding:20px;
+    line-height: 40px;
+}
+.box button{
+    width:100px;
+    height:40px;
+    background-color:gray;
+    border-radius:7px;
+    color:white;
+    border:4px solid rgb(191, 189, 189,0.5);
+    margin:40px;
+}
+.qt{
+    width:43%;
+    min-height:60vh;
+    text-transform:uppercase;
+}
+.faq h1{
+    text-align: center;
+}
+.faq p{
+    font-size:14px;
+    line-height: 30px;
+}
+.faq h4{
+    color:#ff8b00;
+    padding:40px 0 40px 0;
+}
+#testimonals{
+    text-align:center;
+    padding:150px 0 50px 0;
+    width: 100%;
+}
+#testimonals h1{
+    padding-bottom: 80px;
+}
+.sliding{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:50px;
+    justify-content: center;
+}
+.carlos{
+    width:330px;
+    height:330px;
+    text-align:center;
+    padding:40px;
+    background-color: rgb(69, 63, 63);
+}
+.pix{
+    width:70px;
+    height:70px;
+    margin-left:40%;
+    margin-top:20px;
+    border-radius: 35px;
+}
+.ten{
+    background-image: url("https://wallpapers.com/images/high/noah-schnapp-with-serious-face-vmvckkvodw0hlq0t.webp");
+    background-size: cover;
+}
+.lvn{
+    background-image:url("https://wallpapers.com/images/high/movie-maari-pxzleffrqa99weit.webp");
+    background-size: cover;
+}
+.lve{
+    background-image:url("https://wallpapers.com/images/high/ranveer-singh-jbl-brand-ambassador-rwpco4nk1vepr0ps.webp");
+    background-size: cover;
+}
+
+
+
+#blog{
+    text-align: center;
+    padding-top:100px;
+}
+
+.details{
+    display:flex;
+    flex-direction: row;
+    padding:70px;
+    gap:80px;
+    flex-wrap: wrap;
+}
+.bills{
+    min-height:70vh;
+    width:46%;
+    text-align: left;
+}
+.bills img{
+    width:100%;
+    height:60vh;
+    border-radius:10px;
+}
+.bills a{
+    text-decoration: none;
+    color:#ff8b00;
+}
+.bills p{
+    color:grey;
+}
+.cont{
+    text-align: center;
+    padding:100px 0 200px 0;
+}
+.wrap{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top:100px;
+    justify-content: space-around;
+}
+.frm{
+    min-height:70vh;
+    width:46%; 
+}
+
+form input{
+    width:180px;
+    background-color: #333333;
+    color:grey;
+    border:none;
+}
+td input{
+    width:250px;
+    color:white;
+    height:47px;
+    margin-bottom: 21px;
+    padding-left: 10px;
+    margin-right: 15px;
+    border-radius: 3px;
+    background-color: #333333;
+    border:none;
+}
+td  [type="email"]{
+    width:520px;
+}
+td textarea{
+    background-color: #333333;
+    width:520px;
+    height:300px;
+    padding: 5px 5px 0 10px;
+    border-radius: 3px;
+    border:none;
+}
+td [type="button"]{
+    background-color:#ff8b00;
+    color:white;
+    margin:21px 0 21px 280px;
+}
+td [type="button"]:hover{
+    background-color: orange;
+}
+.det{
+    min-height:70vh;
+    width:35%;
+    text-align: left;
+}
+
+.det button{
+    width:140px;
+    height:45px;
+    margin-top:30px;
+    color:white;
+    border-radius:4px;
+    background-color: #ff8b00;
+    border:none;
+   
+}
+.det button:hover{
+    background-color: orange;
+}
+footer{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #333333;
+}
+.abts{
+    width:350px;
+    height:30vh;
+    margin-left:50px;
+    padding:100px 0 300px 0;
+    text-align: left;
+}
+.feat{
+    width:200px;
+    height:30vh;
+    margin-left:50px;
+    padding:100px 0 300px 0;
+    text-align: left;
+}
+.feat li{
+    list-style: none;
+    padding-top:10px;
+   
+}
+.feat a{
+    text-decoration: none;
+    color:white;
+}
+.feat ul{
+    padding-left: 0;
+}
+.feat a:hover{
+    color: rgb(130, 125, 125);
+}
+.news{
+    width:400px;
+    height:30vh;
+    margin-left:100px;
+    padding:100px 0 200px 0px;
+    text-align: left;
+}
+.news [type="email"]{
+    background-color:#333333;
+    width:300px;
+    height:60px;
+    border:1px solid grey;
+    border-radius:4px 0 0 4px;
+    margin-bottom:40px;
+}
+.news [type="button"]{
+    background-color: #ff8b00;
+    height:65px;
+    width:90px;
+    border:none;
+    color:white;
+    font-weight: bold;
+    border-radius:0 4px 4px 0;
+}
+.news i {
+    color:grey;
+    padding:20px 20px 20px 0;
+    
+}
+.line{
+    width:1000px;
+    height:1px;
+    margin:auto;
+    background-color: white;
+}
+#by{
+    margin:40px 0 240px 360px;
+}
+
+@media screen and (max-width:425px){
+    .container-fluid{
+        width:100%;
+    }
+    .sec{
+        width:100%;
+        padding:40px;
+        margin:0;
+    }
+    .switch{
+        height:60px;
+        width:140px;
+        font-size: 10px;
+    }
+    .cards{
+        display:inline-block;
+        text-align: left;
+    }
+    .item{
+        padding: 0;
+        margin-top:40px;
+        
+    }
+    .vick img{
+        max-height:390px;
+        max-width:390px;
+    }
+    .vicks{
+        width:100%;
+        padding:20px 25px;
+    }
+    .video>video{
+        height:300px;
+        max-width:380px;
+        padding:auto;
+        margin-left:9px;
+    
+    }
+    .count{
+        display:flex;
+        flex-wrap: wrap;
+        gap:30px;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .num{
+        margin-top:0;
+        margin-bottom:50px;
+        width:100px;
+        height:190px;
+        text-align: center;
+    }
+    .num i{
+        font-size:20px;
+    }
+    .num{
+        font-size: 15px;
+        height: 100px;
+        width:180px;
+        
+    }
+    .num h1{
+        font-size:35px;
+        text-align: center;
+    }
+    .num p{
+        margin:0px;
+    }
+    .length{
+        width:70px;
+        height:3px;
+        background-color:rgb(156, 155, 155);
+    }
+    .ourteam{
+        margin-left:90px;
+        text-align:center;
+    }
+    .price{
+        margin-bottom:40px;
+    }
+    .pricecard{
+        display:inline-block;
+        
+    }
+    .box{
+        width:500px;
+        height: 450px;
+        padding-top:4px;
+        margin-top: 30px;
+
+    }
+    .box table{
+        padding:5px;
+        line-height:px;
+    }
+    .box button{
+        margin-top: 20px;
+    }
+    .main{
+        gap:30px;
+    }
+    .qt{
+        width:100%;
+        line-height: 10px;
+    }
+    #testimonals{
+        padding:5px;
+    }
+    #testimonals h1{
+        padding-bottom:0;
+    }
+    .bills{
+        width: 100%;
+        
+    }
+    .bills img{
+        height:80vh;
+        margin-bottom: 20px;
+    }
+    .wrap{
+        display:inline-block;
+
+    }
+    .frm{
+        margin-left: 50px;
+    }
+    td [type="button"]{
+        width:500px;
+        margin:0
+    }
+    
+    .det{
+        padding-top:80px;
+        margin: auto;
+        width: 80%;
+    }
+    .abts{
+        width: 100%;
+        height:10px;
+    }
+    .navbar{
+        width: 100%;
+    }
+}
